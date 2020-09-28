@@ -1,0 +1,164 @@
+body {
+	background                    : #333 !important; 
+}
+/*-----------------------nav-Left-header-------------------------------*/
+body #side-menu .nav-header{
+	background                    :#333 !important;
+}
+body #side-menu .nav-header .clear{
+	font-family                   : 'Rubik', sans-serif;
+	font-size                     : 14px;
+	color                         : #fff;
+}
+/* nav-left-menu*/
+body .navbar-default{
+    height                        : 100%;
+}
+body .navbar-default .nav > li > p{
+	color                         : #fff;
+    padding                       : 12px 10px 12px 10px;
+    margin                        : 0;
+}
+body .navbar-default .nav .space-line{
+	width                         : 100%;
+    height                        : 1px;
+    background                    : #fff;
+    margin-bottom                 : 5px;
+}
+body .navbar-default .nav > li > a{
+	color                         :#fff;
+}
+body .navbar-default .nav > li > a:hover,
+body .navbar-default .nav > li > a:focus {
+  	background                    : #ea0026 !important;
+  	color                         : #fff !important;
+}
+body .nav li.active{
+	background                    : #ea0026 !important;
+}
+/*-----------------------Header-------------------------------*/
+
+.skin-1 .navbar-static-top{
+	background                    : #333 !important;
+}
+.skin-1 .nav > li > a{
+	color                         : #fff !important;
+}
+.skin-1 .navbar-minimalize {
+	background                    : #ea0026;
+    border-color                  : #ea0026;
+}
+/*------------------------ CUSTOME BUTTON------------------------*/
+/*edit*/
+.btn-custome{
+	background-color              : #ea0026;
+    border-color                  : #ea0026;
+    color                         : #FFFFFF;
+}
+.btn-custome:hover{
+    background-color              : #ff5567;
+    border-color                  : #ff5567;
+    color                         : #FFFFFF;
+}
+.btn-custome:focus, .btn-custome:active, .btn-custome.active, .open .dropdown-toggle.btn-custome, .btn-custome:active:focus, .btn-custome:active:hover, .btn-custome.active:hover, .btn-custome.active:focus{
+	background-color              : #333;
+    border-color                  : #333;
+    color                         : #FFFFFF;
+}
+/*button list menu*/
+body .navbar-default .nav > li > a {
+    color                         : rgba(255,255,255,1);
+    -webkit-transition            : all 0.5s;
+    -moz-transition               : all 0.5s;
+    -o-transition                 : all 0.5s;
+    transition                    : all 0.5s;
+    position                      : relative;
+    overflow                      : hidden;
+    color                         : rgba(51,51,51,1);
+    text-decoration               : none;
+    display                       : block;
+}
+body .navbar-default .nav > li > a::before{
+    content                       : '';
+    position                      : absolute;
+    top                           : 0;
+    left                          : 0;
+    width                         : 100%;
+    height                        : 100%;
+    z-index                       : 1;
+    -webkit-transition            : all 0.5s;
+    -moz-transition               : all 0.5s;
+    -o-transition                 : all 0.5s;
+    transition                    : all 0.5s;
+    opacity                       : 1;
+    -webkit-transform             : translate(-105%,0);
+    transform                     : translate(-105%,0);
+    border-right-width            : 1px;
+    border-right-style            : solid;
+    border-right-color            : rgba(255,255,255,1);
+    background-color              : rgba(255,255,255,0.25);
+}
+body .navbar-default .nav > li > a:hover::before{
+    opacity                       : 0;
+    -webkit-transform             : translate(0,0);
+    transform                     : translate(0,0);  
+}
+
+/*--------------------------Filter---------------------------*/
+.filter select{
+	border-color                  : #ea0026;
+}
+
+/*--------------------------PreLoader------------------------*/
+.preloader { 
+    position                      :fixed;
+    left                          :0px; 
+    top                           :0px; 
+    width                         :100%; 
+    height                        :100%; 
+    z-index                       :999999; 
+    background-color              : rgba(255,255,255,0.9);
+
+    background-position           :center center;
+    background-repeat             :no-repeat; 
+    background-image              :url(../images/preloader.svg);
+}
+.preloader.active{
+    display                       : none;
+}
+/*custom preloader cũ*/
+body .pace .pace-progress {
+  background                      : #ea0026;
+  position                        : fixed;
+  z-index                         : 2040;
+  top                             : 0;
+  right                           : 100%;
+  width                           : 100%;
+  height                          : 3px;
+}
+ /* style css code tại đây */
+
+.dataTables_wrapper {
+    background                    : #fbfbfb;
+}
+.page-item.active .page-link{
+    background                    : #333 !important;
+    color                         : #fff !important;
+    border-color                  : #333 !important;
+}
+.dt-body-right{
+    text-align                    : right;
+}   
+.dt-body-center{
+    text-align                    : center;
+} 
+.dt-body-left{
+    text-align                    : left;
+} 
+.float-right{
+   float                          : right;
+}
+/*-------------Custome_Content--------------------*/
+.skin-1 .wrapper-content{
+    padding                       : 20px 0px !important;
+}
